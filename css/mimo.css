@@ -1,0 +1,213 @@
+	@font-face {
+	font-family:Playfair Display;
+	src:url(‘Playfair_Display/PlayfairDisplay-Regular.ttf’) }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px;
+    }
+    .wrapper {
+        max-width: 1062px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+        margin: auto;
+        font-family: Playfair Display;
+        overflow: hidden;
+    }
+    aside {
+        width: 25.62%;
+        float: left;
+        padding-top: 100px;
+    }
+    aside p {
+        font-size: 12px;
+        color: #626262;
+    }
+    aside h3 {
+        font-family: Playfair Display;
+        text-transform: uppercase;
+        color: #b4ad9e;
+        padding-bottom: 31px;
+        padding-top: 32px;
+    }
+    .info {
+        width: 62%;
+        float: left;
+        margin-right: 47px;
+    }
+    aside li{
+        list-style-position: inside;
+    }
+    .emai {
+        max-width: 1200px;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    h4 {
+        text-align: left;
+    }
+    .emai .container {
+        padding: 100px;
+    }
+    .media>.pull-left {
+        padding-right: 30px;
+    }
+    .form-control {
+
+        height: 66px;
+        padding: 13px 28px;
+        margin-top: 16px;
+    }
+    .media-body a {
+        color: #b4ad9e;
+    }
+    .connect {
+        float: right;
+        color: rgba(138, 87, 87, 0.57);
+    }
+}
+
+    .wrapper {
+        max-width: 1062px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+        margin: auto;
+        font-family: Playfair Display;
+        overflow: hidden;
+    }
+
+    .navbar-default {
+        background-color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .navbar-brand {
+        text-transform: uppercase;
+    }
+
+    .banner img {
+        display: block;
+        margin: auto;
+    }
+
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .nav > li:last-child > a {
+        padding-right: 0px;
+    }
+
+    .nav > li > a {
+        text-transform: uppercase;
+        padding: 10px 50px;
+    }
+    em {
+        font-size: 12px;
+    }
+    .info {
+        width: 100%;
+        padding: 100px;
+    }
+    .info img {
+        margin-bottom: 15px;
+    }
+    .info h3 {
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+        color: #b4ad9e;
+        padding-bottom: 31px;
+        padding-top: 32px;
+    }
+
+    .info p:last-child {
+        color: #b4ad9e;
+        padding-top: 54px;
+        padding-bottom: 136px;
+    }
+
+    .info h2 {
+        padding-bottom: 46px;
+        color: #626262;
+    }
+    .emai{
+        background-color: #f0f0f0;
+        padding: 75px;
+    }
+    .emai div {
+        text-align: center;
+        padding-bottom: 7px;
+
+    }
+
+    .emai input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #9e9e9e;
+        border-radius: 0;
+        outline: none;
+        height: 3rem;
+        width: 100%;
+        font-size: 14px;
+        padding: 0;
+        box-shadow: none;
+        box-sizing: content-box;
+        transition: all 0.3s;
+        position: relative;
+    }
+    .emai .col-sm-4 {
+        float: none;
+        margin:20px auto;
+    }
+    .emai i {
+        position: absolute;
+        top: 8px;
+        right: 18px;
+    }
+    button {
+        margin: auto;
+
+    }
+    .btn {
+        display: block
+    }
+    footer {
+
+        height: 98px;
+        background-color:#f0f0f0 ;
+    }
+    footer .row {
+         margin-right: 0px;
+         margin-left: 0px;
+    }
+    .trai {
+        margin-left: 140px;
+        margin-top: 44px;
+        float: left;
+    }
+    .trai li {
+        display: inline-block;
+        float: left;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .phai{
+        margin-top: 42px;
+        float: right;
+    }
+    .phai li {
+        display: inline-block;
+        float: left;
+        margin-right: 28px;
+    }
+   

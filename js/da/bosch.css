@@ -1,0 +1,120 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+}
+#banner img {
+	max-width: 100%;
+	margin: auto;
+}
+.maincontent {
+	    margin-top: 41px;
+}
+/*thông tin trong info*/
+img {
+	max-width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info p {
+	text-align: center;
+	font-size: 18px;
+}
+.info strong {
+	color: #630;
+	font-family: "Courier New", Courier, monospace;
+}
+.info>p.gia:first-child {
+	animation: hapdan 5s ease infinite;
+	font-size: 25px;
+}
+
+/*chỉnh sửa khung hình,hiệu ứng,text sản phẩm thumb*/
+div.col {
+	width: 30%;
+	height: 600px;
+	margin: 15px;
+	float:left;
+	box-sizing: border-box;
+
+}
+.thumb img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    transition: all 0.5s linear;
+
+}
+.thumb img:hover{
+	transform: translate(0, -5px);
+	box-shadow:0 5px 5px 0 rgb(245, 245, 240);
+
+}
+
+/*text trong col*/
+.col h4{
+	text-align: center;
+	color: brown;
+}
+
+@keyframes hapdan{
+	0%  {text-align: center; font-size: 20px; font-weight: bold; color:rgb(153, 255, 102);}
+    10% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(179, 179, 0);}
+    20% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(26, 140, 255);}
+    30% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(230, 0, 0);}
+    40% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(51, 255, 51);}
+    50% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(153, 153, 102);}
+    60% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(128, 229, 255);}
+    70% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(179, 179, 0);}
+    80% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(255, 230, 230);}
+    90% {text-align: center; font-size: 20px; font-weight: bold; color:rgb(255, 51, 153);}
+    100%{text-align: center; font-size: 20px; font-weight: bold; color:rgb(255, 187, 51);}
+}
+.col p:nth-child(2){
+	text-align: center;
+	color: grey;
+	text-decoration: line-through;
+}
+.col p:nth-child(3){
+	text-align: center;
+	animation: hapdan 5s ease infinite;
+}
+.col p:nth-child(4){
+	text-align: center;
+	color: brown;
+	}
+
+/*hiệu ứng biến mất từ từ*/
+@keyframes faded {
+    0%  {opacity: 1;}
+    25%  {opacity: 0.75;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.25;}
+    100% {opacity: 0;}
+}
+
+#banner img {
+	animation: faded 4s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+/*hiệu ứng chữ chạy phía dưới*/
+@keyframes dichuyen{
+	0%  {transform: translate(5px,0); opacity: 0.75;}
+    100%  {transform: translate(-300px,0);opacity: 0.25;}
+    
+}
+#chuchay {
+	color: red;
+	text-align: right;
+	padding-left: 0;
+	animation: dichuyen 4s cubic-bezier(0.4, 0, 1, 1) infinite;
+	opacity: 1;
+}
+
